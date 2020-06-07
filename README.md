@@ -2,7 +2,9 @@
 
 This is a Common Lisp port of the very first part of [Lode Vandevenne](https://github.com/lvandeve)'s excellent [Computer Graphics Tutorial](https://lodev.org/cgtutor/raycasting.html), which covers the untextured raycaster example.
 
-My version here still has glitches and crashes sometimes as the translation was not as smooth as I foresaw. I hadn't had time to fix it yet because too many other things going on. Maybe (hopefully) I'll get back to it. In the meantime here it is. Have fun!
+![raycaster-untextured2](https://user-images.githubusercontent.com/19293817/83981215-30bb9680-a91c-11ea-86df-fc8704b44425.gif)
+
+My version here still has glitches (as can be seen above) and crashes sometimes as the translation was not as smooth as I foresaw. I hadn't had time to fix it yet because too many other things going on. Maybe (hopefully) I'll get back to it. In the meantime here it is. Have fun!
 
 ### To run the code:
 
