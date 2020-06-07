@@ -1,2 +1,27 @@
 # raycaster-untextured
-a Lisp port of the first part of Lode Vandevenne's computer graphics tutorial
+
+This is a Common Lisp port of the very first part of [Lode Vandevenne](https://github.com/lvandeve)'s excellent [Computer Graphics Tutorial](https://lodev.org/cgtutor/raycasting.html), which covers the untextured raycaster example.
+
+My version here still has glitches and crashes sometimes as the translation was not as smooth as I foresaw. I hadn't had time to fix it yet because too many other things going on. Maybe (hopefully) I'll get back to it. In the meantime here it is. Have fun!
+
+### To run the code:
+
+I've used SBCL, so I have no clue if/how this will work on other Lisps. To run this you'll need quicklisp and lispbuilder-sdl. 
+
+If you don't have quicklisp you can find instructions here:
+https://golems.github.io/motion-grammar-kit/install.html
+
+or here:
+https://lispcookbook.github.io/cl-cookbook/getting-started.html
+
+Then once into the REPL:
+
+```
+(load "~/quicklisp/setup.lisp")
+
+(ql:quickload :lispbuilder-sdl)
+
+(load "raycaster-untextured")
+
+(raycaster-untextured-main)
+```
